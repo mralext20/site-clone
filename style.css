@@ -1,15 +1,26 @@
 .mt-15 {
   margin-top: 15rem !important;
 }
+.mt-10 {
+  margin-top: 10rem !important;
+}
 .bg-gradient {
   background: rgb(0,0,0);
-  background: linear-gradient(-45deg, rgba(0,0,0,0.55) 0%, rgba(255,102,0,1) 80%);
+  background: linear-gradient(-45deg, rgba(0,0,0,0.55) 0%, rgb(255, 102, 0) 80%);
 }
 
-
+.bg-orange {
+  background-color:#fa0;
+}
+.orange-line {
+  border: .2em solid #fa0;
+}
 /* from https://stackoverflow.com/a/25776315 */
-.x-button-center {
-  top:1em;
+.x-absolute-center {
+  top:0em;
   left:50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
+}
+.card.x-absolute-center {
+  transform: translate(-50%, 50%)
 }
